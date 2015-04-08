@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/selectPrev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:text="@string/tvReceiverDetails"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spnRecieverfName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="0.6"
+                android:inputType="textCapWords"
+                android:prompt="@string/spnTitle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableRight="@drawable/required"
+                android:drawableEnd="@drawable/required"
+                android:ems="10"
+                android:text="@string/conf_your_details_name" />
+
+            <EditText
+                android:id="@+id/etRecieverFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableRight="@drawable/required"
+                android:drawableEnd="@drawable/required"
+                android:ems="10"
+                android:text="@string/conf_your_details_phone" />
+
+            <EditText
+                android:id="@+id/etRecieverPhoneOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableRight="@drawable/required"
+                android:drawableEnd="@drawable/required"
+                android:ems="10"
+                android:text="@string/receiverSelection_label_email" />
+
+            <EditText
+                android:id="@+id/etRecieverEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="0.22"
+                android:drawableRight="@drawable/required"
+                android:drawableEnd="@drawable/required"
+                android:ems="10"
+                android:text="@string/conf_your_details_fulladdress" />
+
+            <EditText
+                android:id="@+id/etRecieverStreetNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textPostalAddress"
+                android:lines="4" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

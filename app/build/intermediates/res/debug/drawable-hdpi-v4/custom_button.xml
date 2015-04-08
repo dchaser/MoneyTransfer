@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <layer-list >
+                 <item>
+                 <bitmap  android:src="@drawable/button9patch"  />
+            </item>
+            
+            <item >
+                
+                <shape>
+            <gradient
+                android:startColor="@color/Green"
+                android:endColor="@color/GreenYellow"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/Green" />
+            <corners
+                android:radius="3dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+            </item>
+            
+        </layer-list>
+    </item>
+
+    <item android:state_focused="true" >
+        
+        <layer-list >
+                 <item>
+                 <bitmap  android:src="@drawable/button9patch"  />
+            </item>
+            
+            <item >
+                
+                 <shape>
+            <gradient
+                android:endColor="@color/PaleGreen"
+                android:startColor="@color/PaleGreen"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/MediumSpringGreen" />
+            <corners
+                android:radius="3dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+            </item>
+            
+        </layer-list>
+        
+        
+       
+    </item>
+
+     <item>
+                <bitmap  android:src="@drawable/button9patch"  />
+<!--         <shape> -->
+<!--             <gradient -->
+<!--                 android:endColor="@color/Green" -->
+<!--                 android:startColor="@color/Green" -->
+<!--                 android:angle="270" /> -->
+<!--             <stroke -->
+<!--                 android:width="3dp" -->
+<!--                 android:color="@color/Green" /> -->
+<!--             <corners -->
+<!--                 android:radius="3dp" /> -->
+<!--             <padding -->
+<!--                 android:left="10dp" -->
+<!--                 android:top="10dp" -->
+<!--                 android:right="10dp" -->
+<!--                 android:bottom="10dp" /> -->
+<!--         </shape> -->
+    </item>
+</selector>
+
+<!-- From: file:/C:/CodeNinja/Android/Studio/MoneyTransfer/app/src/main/res/drawable-hdpi/custom_button.xml -->

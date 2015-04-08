@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvPendingPageSenderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pending_tv_senderName" />
+
+        <TextView
+            android:id="@+id/tvSenderNameToFill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvPendingPageReceiverName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pending_tv_receiverName" />
+
+        <TextView
+            android:id="@+id/tvReceiverNameToFill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvPendingPageAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pending_tv_amount" />
+
+        <TextView
+            android:id="@+id/tvAmountToFill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvPendingPageDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pending_tv_date" />
+
+        <TextView
+            android:id="@+id/tvDateToFill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/CodeNinja/Android/Studio/MoneyTransfer/app/src/main/res/layout/activity_completed_sub_layout.xml -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/linearlayout_border" >
+
+    <ImageView
+        android:id="@+id/imgv_bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:orientation="vertical"
+        android:src="@drawable/bank_tab_indicator" />
+
+    <TextView
+        android:id="@+id/tvBankHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout><!-- From: file:/C:/CodeNinja/Android/Studio/MoneyTransfer/app/src/main/res/layout/banks_tab_header_indicator.xml -->

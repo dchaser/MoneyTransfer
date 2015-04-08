@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.3"
+            android:background="@color/White"
+            android:isScrollContainer="true" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingStart="15dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                android:text="@string/conf_your_details"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TableLayout
+                android:id="@+id/tblLayoutOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_your_details_name"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_SD_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_your_details_phone"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_SD_Phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_your_details_email"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_SD_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_your_details_address"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_SD_Address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" 
+                        android:lines="2">
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.3"
+            android:background="#C2C2C2"
+            android:isScrollContainer="true" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingStart="15dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                android:text="@string/conf_receiver_details"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:id="@+id/tblLayoutTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp" >
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_receiver_name"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_RD_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_your_details_phone"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_RD_Phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_receiver_bank"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_RD_bank"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_receiver_account_id"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_RD_Account"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_receiver_branch_name"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_RD_Branch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="0.3"
+            android:background="@color/White"
+            android:isScrollContainer="true" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingStart="15dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                android:text="@string/conf_trans_details"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:id="@+id/tblLayoutThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+
+                <TableRow
+                    android:id="@+id/tableRow10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="30dp"
+                        android:paddingStart="30dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_trans_amount"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_trans_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="30dp"
+                        android:paddingStart="30dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_trans_fee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_trans_fee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:paddingLeft="30dp"
+                        android:paddingStart="30dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                        android:text="@string/conf_trans_sent_amount"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_trans_sent_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textReceiverName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#B0BEC5"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imgBtnEditReceiver"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/pride_profile_enabled"
+        android:contentDescription="@string/app_name"
+        android:padding="5dp"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/imgBtnDeleteReceiver"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:contentDescription="@string/app_name"
+        android:gravity="end"
+         android:padding="5dp"
+         android:background="@android:color/transparent"
+        android:scaleType="centerInside" 
+        android:src="@drawable/delete" />
+
+</LinearLayout>

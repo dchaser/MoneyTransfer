@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outerMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.7"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" 
+    android:paddingBottom="10dp">
+
+    <ImageButton
+        android:id="@+id/imgBtnUserPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:alpha="0.7"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/final_home_user_icon_large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvEnterMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="enter your mobile no to"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvGetStarted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily=""
+            android:paddingEnd="0dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="0dp"
+            android:paddingStart="5dp"
+            android:text="get started"
+            android:textColor="#607D8B"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/CodeNinja/Android/Studio/MoneyTransfer/app/src/main/res/layout/frag_first_slide.xml -->

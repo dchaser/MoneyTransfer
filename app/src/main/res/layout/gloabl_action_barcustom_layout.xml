@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/abMainRL"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+
+    <ImageButton
+        android:id="@+id/abThreeBars"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_gravity="start"
+        android:background="#607D8B"
+        android:contentDescription="@string/app_name"
+        android:onClick="actionBarClick"
+        android:scaleType="centerInside"
+        android:src="@drawable/pride_menu_disabled" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:background="#607D8B" />
+
+    <ImageButton
+        android:id="@+id/abUserIcon"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_gravity="end"
+        android:background="#607D8B"
+        android:contentDescription="@string/app_name"
+        android:onClick="actionBarClick"
+        android:scaleType="centerInside"
+        android:src="@drawable/pride_profile_disabled" />
+
+</LinearLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvAddNewBank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:background="#C2C2C2"
+                android:drawableRight="@drawable/new_bank"
+                android:drawableEnd="@drawable/new_bank"
+                android:ems="10"
+                android:text="@string/tvBankDetails"
+                android:textColor="@color/Black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spnRecieverBankName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:inputType="textCapWords"
+                android:textColor="@color/Black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableRight="@drawable/required"
+                android:drawableEnd="@drawable/required"
+                android:ems="10"
+                android:text="@string/receiverSelection_label_bankName"
+                android:textColor="@color/Black" />
+
+            <EditText
+                android:id="@+id/etRecieverBankName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textCapWords"
+                android:textColor="@color/Black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableRight="@drawable/required"
+                android:drawableEnd="@drawable/required"
+                android:ems="10"
+                android:text="@string/receiverSelection_label_accountName" />
+
+            <EditText
+                android:id="@+id/etRecieverAccountName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="92dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="0.31"
+                android:drawableRight="@drawable/required"
+                android:drawableEnd="@drawable/required"
+                android:ems="10"
+                android:text="@string/receiverSelection_label_bankCode" />
+
+            <EditText
+                android:id="@+id/etRecieverBankCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableRight="@drawable/required"
+                android:drawableEnd="@drawable/required"
+                android:ems="10"
+                android:text="@string/conf_your_details_accountid" />
+
+            <EditText
+                android:id="@+id/etRecieverAccountNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableRight="@drawable/required"
+                android:drawableEnd="@drawable/required"
+                android:ems="10"
+                android:text="@string/receiverSelection_label_branchName" />
+
+            <EditText
+                android:id="@+id/etRecieverBranchName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

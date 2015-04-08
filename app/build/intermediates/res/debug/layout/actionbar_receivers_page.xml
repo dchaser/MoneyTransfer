@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/abMainRL"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+
+    <TextView
+        android:id="@+id/abRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#607D8B"
+        android:drawableLeft="@drawable/pride_arrow_disabled_small"
+        android:drawableStart="@drawable/pride_arrow_disabled_small"
+        android:onClick="actionBarClick"
+        android:text="HOME"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:textColor="#ECEFF1" 
+        android:drawablePadding="10dp"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:background="#607D8B" />
+
+<!--     <ImageButton -->
+<!--         android:id="@+id/abUserIcon" -->
+<!--         android:layout_width="60dp" -->
+<!--         android:layout_height="65dp" -->
+<!--         android:layout_gravity="end" -->
+<!--         android:background="#607D8B" -->
+<!--         android:contentDescription="@string/app_name" -->
+<!--         android:onClick="actionBarClick" -->
+<!--         android:scaleType="centerInside" -->
+<!--         android:src="@drawable/pride_profile_disabled" /> -->
+
+</LinearLayout><!-- From: file:/C:/CodeNinja/Android/Studio/MoneyTransfer/app/src/main/res/layout/actionbar_receivers_page.xml -->

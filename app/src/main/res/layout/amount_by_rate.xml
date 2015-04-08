@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="40dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvRate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/Black"
+            android:gravity="center_vertical"
+            android:paddingEnd="2dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="2dp"
+            android:paddingStart="15dp"
+            android:text="@string/amount_frag_Amount"
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvLkRAmount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Black"
+            android:drawableEnd="@drawable/refresh_right"
+            android:drawableRight="@drawable/refresh_right"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        style="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/network_frag_border9"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/etAmountToSend"
+            android:layout_width="158dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="10dp"
+            android:focusable="true"
+            android:hint="@string/enter_amount"
+            android:inputType="numberDecimal"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvLkr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical"
+            android:text="@string/network_check_frag_AUD"
+            android:textColor="@color/Black"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

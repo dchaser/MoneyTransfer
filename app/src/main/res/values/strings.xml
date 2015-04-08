@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MoneyTransfer</string>
+    <!-- Amount Screen -->
+    <string name="moneyTransferTitle">Money Transfer</string>
+    <string name="moneyTransfer_btn_send_money">Send Money</string>
+    <string name="details">Details</string>
+    <string name="moneyTransfer_btn_register">Register</string>
+    <string name="moneyTransfer_btn_pending_transfers">Pending Transactions</string>
+    <string name="sendMoneyTitle">Send Money : amount</string>
+    <string name="sendMoney_next_button">Next</string>
+    <string name="registrationPageUpdateButtonText">UPDATE</string>
+    <string name="pay">Pay</string>
+    <string name="senderDetails">Sender Details Page</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+    <string name="codeninja">CodeNinja Pty. Ltd.</string>
+    <string name="about_descrition">CodeNinja is a Melbourne based mobile software development company. We specialise in developing mobile software for the publishing industry. If you are a publisher looking to get your content across to Mobile platforms iOS, Android or Windows, we would love to hear from you. 
+        Email: info@codeninjaapps.com</string>
+    <string name="feedbackUsrName">Name..</string>
+    <string name="feedbackEmailContact">Contact Number/eMail..</string>
+    <string name="fedbackUsrMessage">Your Message..</string>
+    <string name="feedbackbtnSumbitTxt">SEND</string>
+    <!-- Amount Screen -->
+    <string name="senderInfo_label_email">email:</string>
+    <string name="senderInfo_label_suburb">suburb:</string>
+    <string name="senderInfo_label_postcode">postcode:</string>
+    <string name="senderInfo_label_state">state:</string>
+    <!-- Receiver Info Page -->
+    <string name="receiverSelection_label_email">receiver email:</string>
+    <string name="receiverSelection_label_bankName">bank name:</string>
+    <string name="receiverSelection_label_branchName">branch name:</string>
+    <string name="receiverSelection_label_accountName">account name:</string>
+    <string name="receiverSelection_label_bankCode">bank code:</string>
+    <string name="pending_title">Pending Transactions</string>
+    <string name="spnTitle"></string>
+    <string name="tvReceiverDetails">SELECT FROM PREVIOUS</string>
+    <string name="tvBankDetails">Bank Details</string>
+    <string name="pending_tv_senderName">Sender Name</string>
+    <string name="pending_tv_receiverName">Receiver Name</string>
+    <string name="pending_tv_amount">Amount</string>
+    <string name="pending_tv_date">Code</string>
+    <string name="pending_page_title">Pending Transactions</string>
+    <string name="completed_page_title">Completed Transactions</string>
+    <string name="network_check_frag_Rate">Rate</string>
+    <string name="network_check_frag_AUD">AUD</string>
+    <string name="network_check_frag_LKR">LKR</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="welcome">Welcome</string>
+    <string name="history">History</string>
+    <string name="sendmoney">Send Money</string>
+    <string name="lkraud">LKR/AUD</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="amount_frag_Amount">Amount - :</string>
+    <string name="send_money">SEND MONEY</string>
+    <string name="conf_your_details">Your Details</string>
+    <string name="conf_your_details_name">receiver name:</string>
+    <string name="conf_your_details_phone">receiver phone:</string>
+    <string name="conf_your_details_email">email</string>
+    <string name="conf_your_details_address">address</string>
+    <string name="conf_your_details_fulladdress">address:</string>
+    <string name="conf_your_details_accountid">account no:</string>
+    <string name="conf_receiver_details">Receiver Details</string>
+    <string name="conf_receiver_name">name</string>
+    <string name="conf_receiver_bank">nank</string>
+    <string name="conf_receiver_account_id">account no:</string>
+    <string name="conf_receiver_branch_name">branch name:</string>
+    <string name="conf_trans_details">transaction</string>
+    <string name="conf_trans_amount">Amount</string>
+    <string name="conf_trans_fee">Fee</string>
+    <string name="conf_trans_sent_amount">Sent Amount</string>
+    <string name="conf_trans_status">Status</string>
+    <string name="final_page_ok">OK</string>
+    <string name="final_page_direction">Directions</string>
+    <string name="delete_transaction">Delete</string>
+    <!-- sender details page -->
+    <string name="senderDetailsPagefName">first name:</string>
+    <string name="senderDetailsPagelName">last name:</string>
+    <string name="senderDetailsPageMobNumber">mobile:</string>
+    <string name="senderDetailsPagetakePhoto">Agree and Take Photo</string>
+    <string name="senderDetailsPageAddressLineOne">address:</string>
+    <string name="senderDetailsPageSave">Verify</string>
+    <!-- currency rate fragment -->
+    <string name="currRate">120.66</string>
+    <string name="addNewBank">Add a new Bank</string>
+    <string name="addNewReceiver">Add a new Receiver</string>
+    <string name="CODE">Code</string>
+    <string name="currentReceivers">Your current Receivers..</string>
+    <string name="wsReceivers">Address Book</string>
+    <string name="tvHeadingVerification">VERIFICATION</string>
+    <string name="btnRegister">Register</string>
+    <string name="take_photo_description">We need to verify your details against a valid Australian ID. This is a legal requirement and your data will not be shared. 
+Please see our privacy policy here.
+Please take a clear photo of your passport or drivers license and agree to our privacy policy by clicking the button below.</string>
+    <string name="enter_aussie">Enter amount in Aussie dollars </string>
+    <string name="enter_sl">Enter amount in Sri Lankan Rupees</string>
+    <string name="addNew">Add new</string>
+
+    <!-- payment summary screen -->
+    <string name="paymentSummary">Payment Summary</string>
+    <string name="payTo">Pay to</string>
+    <string name="from">From:</string>
+    <string name="amount">Amount:</string>
+    <string name="rate">Rate:</string>
+    <string name="amountInLkr">Amount in LKR:</string>
+    <string name="accfound">Account Found</string>
+    <string name="accfoundLongText">Found an existing account for the email "email or mobile entered". Do you want to link to the existing account or start a new account?</string>
+    <string name="linkAcc">Link    Account</string>
+    <string name="resetAcc">Reset Account</string>
+
+    <!-- account summary screen -->
+    <string name="ack">Acknowledgement</string>
+    <string name="lkrAmt">Amount in LKR</string>
+    <string name="enterEmail">or, enter email</string>
+
+    <!-- z validation -->
+    <string name="lib_name">Z-Validations</string>
+    <string name="zvalidations_not_positive_integer">Field should be positive integer</string>
+    <string name="zvalidations_empty">Field could not be empty</string>
+    <string name="zvalidations_not_in_range">Field should be between %1$d and %2$d</string>
+    <string name="zvalidations_not_email">Value is not valid email address</string>
+    <string name="zvalidations_too_short">Minimum field length is %1$d characters</string>
+
+    <!-- redesign strings -->
+
+</resources>

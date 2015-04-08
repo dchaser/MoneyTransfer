@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" 
+    android:background="@drawable/linearlayout_border">
+
+    <ImageView
+        android:id="@+id/imgv_rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:orientation="vertical"
+        android:src="@drawable/receiver_tab_indicator" />
+
+    <TextView
+        android:id="@+id/tvReceiverTabHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout><!-- From: file:/C:/CodeNinja/Android/Studio/MoneyTransfer/app/src/main/res/layout/receiver_tab_header_indicator.xml -->

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/background_image"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlPaymentSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7" >
+
+        <TextView
+            android:id="@+id/tvAccFound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Please wait.."
+            android:textColor="#FFC107"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@+id/tvAccFound"
+            android:layout_marginTop="4dp"
+            android:background="#455A64" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llAccDescDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlPaymentSummary"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:alpha="0.5"
+        android:background="@color/White"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+          <TextView
+                android:id="@+id/tvAccDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:text="we are processing your request"
+                android:textColor="#455A64"
+                android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

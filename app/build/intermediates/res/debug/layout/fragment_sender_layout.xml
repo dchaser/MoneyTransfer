@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <!-- first name start -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableEnd="@drawable/required"
+                android:drawableRight="@drawable/required"
+                android:text="@string/senderDetailsPagefName" />
+
+            <EditText
+                android:id="@+id/etfName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+        <!-- first name end -->
+
+
+        <!-- last name start -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginBottom="4dp" -->
+        <!-- android:orientation="vertical" > -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginLeft="8dp" -->
+        <!-- android:drawableEnd="@drawable/required" -->
+        <!-- android:text="@string/senderInfo_label_lname" /> -->
+
+
+        <!-- <EditText -->
+        <!-- android:id="@+id/etlName" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginLeft="8dp" -->
+        <!-- android:layout_marginRight="8dp" -->
+        <!-- android:background="@drawable/editext" -->
+        <!-- android:inputType="textCapWords" /> -->
+        <!-- </LinearLayout> -->
+        <!-- last name ends -->
+
+
+        <!-- phone one start -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableEnd="@drawable/required"
+                android:drawableRight="@drawable/required"
+                android:text="@string/senderDetailsPageMobNumber" />
+
+            <EditText
+                android:id="@+id/etPhoneOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="phone" />
+        </LinearLayout>
+        <!-- phone one ends -->
+
+
+        <!-- phone two start -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginBottom="4dp" -->
+        <!-- android:orientation="vertical" > -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginLeft="8dp" -->
+        <!-- android:drawableEnd="@drawable/required" -->
+        <!-- android:text="@string/senderInfo_label_ptwo" /> -->
+
+
+        <!-- <EditText -->
+        <!-- android:id="@+id/etPhoneTwo" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginLeft="8dp" -->
+        <!-- android:layout_marginRight="8dp" -->
+        <!-- android:background="@drawable/editext" -->
+        <!-- android:inputType="phone" /> -->
+        <!-- </LinearLayout> -->
+        <!-- phone two ends -->
+
+
+        <!-- email start -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableEnd="@drawable/required"
+                android:drawableRight="@drawable/required"
+                android:text="@string/senderInfo_label_email" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+        <!-- email end -->
+
+
+        <!-- Address start -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <!-- street number -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableEnd="@drawable/required"
+                android:drawableRight="@drawable/required"
+                android:text="@string/senderDetailsPageAddressLineOne" />
+
+            <EditText
+                android:id="@+id/etStreetNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textPostalAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <!-- suburb -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:drawableEnd="@drawable/required"
+                android:drawableRight="@drawable/required"
+                android:text="@string/senderInfo_label_suburb" />
+
+            <EditText
+                android:id="@+id/etSuburb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/editext"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <!-- postcode  and state in Horizontally Alligned -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:drawableEnd="@drawable/required"
+                    android:drawableRight="@drawable/required"
+                    android:text="@string/senderInfo_label_postcode" />
+
+                <EditText
+                    android:id="@+id/etPostCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/editext"
+                    android:inputType="numberSigned" />
+            </LinearLayout>
+
+            <!-- state -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:drawableEnd="@drawable/required"
+                    android:drawableRight="@drawable/required"
+                    android:text="@string/senderInfo_label_state" />
+
+                <EditText
+                    android:id="@+id/etState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/editext"
+                    android:inputType="textCapWords" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Country -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:orientation="vertical" > -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginLeft="8dp" -->
+        <!-- android:drawableEnd="@drawable/required" -->
+        <!-- android:text="@string/senderInfo_label_country" /> -->
+
+
+        <!-- <EditText -->
+        <!-- android:id="@+id/etCountry" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginLeft="8dp" -->
+        <!-- android:layout_marginRight="8dp" -->
+        <!-- android:background="@drawable/editext" -->
+        <!-- android:inputType="textCapWords" /> -->
+        <!-- </LinearLayout> -->
+
+
+        <!-- <Button -->
+        <!-- android:id="@+id/btnNextSenderInfo" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:background="@drawable/button9patch" -->
+        <!-- android:text="Next" > -->
+        <!-- </Button> -->
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/CodeNinja/Android/Studio/MoneyTransfer/app/src/main/res/layout/fragment_sender_layout.xml -->

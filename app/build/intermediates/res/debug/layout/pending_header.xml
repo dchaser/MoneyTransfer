@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@+id/llHeader" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:background="#D9D9D9" -->
+    <!-- android:baselineAligned="true" -->
+    <!-- android:weightSum="1" -->
+    <!-- android:gravity="center_horizontal" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tvPendingPageReceiverName" -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="@string/pending_tv_receiverName" -->
+    <!-- android:textSize="16sp" -->
+    <!-- android:layout_weight="0.7" -->
+    <!-- android:ems="3" -->
+    <!-- android:gravity="center_vertical|center_horizontal" -->
+    <!-- android:lines="1" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:textStyle="bold" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tvPendingPageCloudCode" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:gravity="center_horizontal" -->
+    <!-- android:layout_weight="0.1" -->
+    <!-- android:text="@string/pending_tv_date" -->
+    <!-- android:textSize="16sp" -->
+    <!-- android:textStyle="bold" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tvPendingPageAmount" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:gravity="center_horizontal" -->
+    <!-- android:layout_weight="0.1" -->
+    <!-- android:text="@string/pending_tv_amount" -->
+    <!-- android:textSize="16sp" -->
+    <!-- android:textStyle="bold" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tvPendingDelete" -->
+    <!-- android:layout_width="45dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:gravity="center_horizontal" -->
+    <!-- android:layout_weight="0.1" -->
+    <!-- android:text="   " -->
+    <!-- android:textSize="16sp" -->
+    <!-- android:textStyle="bold" /> -->
+    <!-- </LinearLayout> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:baselineAligned="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/tvReceiverNameToFill"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/border_ll"
+            android:ems="3"
+            android:gravity="center_vertical|start"
+            android:lines="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/tvCloudCode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@drawable/border_b"
+            android:gravity="center_vertical|start" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@drawable/border_ll"
+            android:ems="3"
+            android:gravity="center_vertical|start"
+            android:lines="1"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@drawable/border_b_r"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal" >
+            
+
+            <ImageButton
+                android:id="@+id/imgBtnDeleteTransaction"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:padding="5dp"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/delete" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/CodeNinja/Android/Studio/MoneyTransfer/app/src/main/res/layout/pending_header.xml -->
